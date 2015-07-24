@@ -142,10 +142,18 @@ main h1
 	font-size: 36px;
 	margin-top: 0;
 	margin-bottom: 0;
-	padding-top: 20px;
+	padding-top: 50px;
 	padding-bottom: 20px;
 	color: #494949;
 	font-weight: normal;
+}
+/*#design h2
+{
+	padding-top: 20px;
+}*/
+#design ul.help 
+{
+	padding-top: 30px;
 }
 #design ul.help li
 {
@@ -154,5 +162,129 @@ main h1
 	line-height: 1.5em;
 	color:#737373;
 	font-size: 18px;
+	/*padding-top: 40px;*/
 
+}
+#design ul.help li:before
+{
+	/*content: '\f00c';*/
+	content: '\f00c';
+	color: #838383;
+	font-family: FontAwesome;
+	display: inline-block;
+	width: 40px;
+	margin-left: -40px;
+
+}
+#design ul.help li strong
+{
+
+}
+#design p
+{
+	color: #737373;
+	font-size: 18px;
+	padding-top: 10px;
+	padding-left: 40px;
+
+}
+#design a
+{
+
+}
+#design a.btn
+{
+	float:right;
+	display: inline-block;
+	border-radius: 4px;
+	background-color: #f5f5f5;
+	/*padding: 1em 1em 0.6 1em;*/
+	/*padding-bottom: 10px;*/
+	color: #646464;
+	top: 20px;
+	text-decoration: none;
+	-moz-transition: all 0.2s ease;
+	 -webkit-transition: all 0.2s ease; 
+	 -o-transition: all 0.2s ease; 
+	 transition: all 0.2s ease; 
+	}
+}
+#design a.btn:hover
+{
+	text-decoration: none;
+}
+#design a.btn.github:hover
+{
+	background-color: #555;
+	color: #fff;
+}
+#design a.btn i
+{
+	font-size: 42px;
+	float: left;
+	display: block;
+	padding-top: 8px;
+	padding-left: 5px;
+}
+#design a.btn span
+{
+	font-size: 12px;
+	margin-left: 50px;
+	text-align: left;
+	padding-top: 10px;
+	display: block;
+	text-transform: uppercase;
+	line-height: 12px;
+	text-decoration: none;
+}
+#design a.btn strong
+{
+font-size: 28px; 
+margin-left: 50px; 
+display: block; 
+line-height: 36px; 
+text-decoration: none;
+/*padding-top: 20px;*/
+}
+#design div.curly
+{
+	line-height: 100%
+	font-family'lato',sans-serif;
+	color: #737373;
+	font-weight: 100;
+	font-size: 200px;
+	vertical-align: middle !important;
+	padding-top: 90px;
+}
+#plus
+{
+	background: #2980b9;
+	width: 100%;
+}
+#plus h2
+{
+	color:#fff;
+	padding-left: 80px;
+}
+#plus ul
+{
+	padding-left: 200px;
+	list-style:none;
+}
+#plus ul li
+{
+	padding-left: 40px;
+	margin-bottom: 22px;
+	line-height: 1.5em;
+	color: #e9eff4;
+	font-size: 20px;
+}
+#plus ul li:before
+{
+	content: '\f00c';
+	color: #e9eff4;
+	font-family: FontAwesome;
+	display: inline-block;
+	width: 40px;
+	margin-left: -40px;
 }
